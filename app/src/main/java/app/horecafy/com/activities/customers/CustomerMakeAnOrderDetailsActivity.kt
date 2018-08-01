@@ -108,7 +108,7 @@ class CustomerMakeAnOrderDetailsActivity : AppCompatActivity() {
 
                     if (status) {
 //                        Toast.makeText(this, "su pedido se ha entregado.", Toast.LENGTH_LONG).show()
-                        Toast.makeText(this, "Tu pedido se ha enviado.", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, "su pedido se ha enviado correctamente.", Toast.LENGTH_LONG).show()
 
                         val intent = Intent(applicationContext, CustomerMainActivity::class.java)
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)

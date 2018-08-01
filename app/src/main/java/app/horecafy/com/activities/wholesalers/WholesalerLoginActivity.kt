@@ -22,8 +22,8 @@ class WholesalerLoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_wholesaler_login)
 
         // Only for debug
-//        editMailWholesaler.setText(R.string.customer_login)
-//        editPasswordWholesaler.setText(R.string.customer_pass)
+//        editMailWholesaler.setText(R.string.login_id)
+//        editPasswordWholesaler.setText(R.string.login_password)
 
         buttonLoginWholesaler.setOnClickListener(View.OnClickListener {
             if (Constants.isNetworkAvailable(this)) {

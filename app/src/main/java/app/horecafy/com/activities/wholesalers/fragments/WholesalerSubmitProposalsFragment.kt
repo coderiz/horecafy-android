@@ -142,11 +142,17 @@ class WholesalerSubmitProposalsFragment : Fragment() {
     private fun isValid(): Boolean {
         var isValid = true
 
+        val strZipCode = etZipCode.text.toString()
         val strProposalDescription = etProposalDescription.text.toString()
 
-        if (mSelectedRestaurantsId.isEmpty()) {
+        /*if (mSelectedRestaurantsId.isEmpty()) {
             Toast.makeText(activity,
                     "Seleccione el tipo de restaurantes.", Toast.LENGTH_SHORT).show()
+            isValid = false
+        }*/
+
+        if (strZipCode.isNullOrEmpty()) {
+            etZipCode.setError("Este campo es obligatorio")
             isValid = false
         }
 

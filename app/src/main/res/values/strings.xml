@@ -15,8 +15,8 @@
     <string name="IMAGE_URL">http://demo.aipxperts.com:4201/images/categories/</string>
 
     <!--smarrerof@gmail.com and 12345678-->
-    <string name="customer_login">arif@gmail.com</string>
-    <string name="customer_pass">aipX@1234</string>
+    <string name="login_id">arif@gmail.com</string>
+    <string name="login_password">aipX@1234</string>
     <string name="title_activity_customer_create_your_lists">Crea tus listas</string>
     <string name="title_activity_customer_search_products">Buscar Productos</string>
     <string name="title_activity_customer_make_an_order">Hacer un pedido</string>

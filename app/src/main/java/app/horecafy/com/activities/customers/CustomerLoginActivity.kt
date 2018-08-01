@@ -22,8 +22,8 @@ class CustomerLoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_customer_login)
 
         // Only for debug
-//        editMail.setText(R.string.customer_login)
-//        editPassword.setText(R.string.customer_pass)
+//        editMail.setText(R.string.login_id)
+//        editPassword.setText(R.string.login_password)
 
         buttonLogin.setOnClickListener(View.OnClickListener {
 
