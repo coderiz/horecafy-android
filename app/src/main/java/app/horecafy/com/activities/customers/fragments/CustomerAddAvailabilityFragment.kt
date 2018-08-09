@@ -78,11 +78,11 @@ class CustomerAddAvailabilityFragment : Fragment() {
 
         val timeSlotsList: MutableList<String> = mutableListOf()
 
-        timeSlotsList.add(Constants.SLOT_ONE)
-        timeSlotsList.add(Constants.SLOT_TWO)
-        timeSlotsList.add(Constants.SLOT_THREE)
-        timeSlotsList.add(Constants.SLOT_FOUR)
-        timeSlotsList.add(Constants.SLOT_FIVE)
+//        timeSlotsList.add(Constants.SLOT_ONE)
+//        timeSlotsList.add(Constants.SLOT_TWO)
+//        timeSlotsList.add(Constants.SLOT_THREE)
+//        timeSlotsList.add(Constants.SLOT_FOUR)
+//        timeSlotsList.add(Constants.SLOT_FIVE)
         timeSlotsList.add(Constants.SLOT_SIX)
         timeSlotsList.add(Constants.SLOT_SEVEN)
         timeSlotsList.add(Constants.SLOT_EIGHT)
@@ -130,7 +130,7 @@ class CustomerAddAvailabilityFragment : Fragment() {
 
         // Slot 00-02
         var item = CustomerAvailabilityItems(Constants.MONDAY, Constants.SLOT_ONE, false)
-        mUserAvailabilityList.add(item)
+        /*mUserAvailabilityList.add(item)
 
         item = CustomerAvailabilityItems(Constants.TUESDAY, Constants.SLOT_ONE, false)
         mUserAvailabilityList.add(item)
@@ -236,7 +236,7 @@ class CustomerAddAvailabilityFragment : Fragment() {
         mUserAvailabilityList.add(item)
 
         item = CustomerAvailabilityItems(Constants.SUNDAY, Constants.SLOT_FIVE, false)
-        mUserAvailabilityList.add(item)
+        mUserAvailabilityList.add(item)*/
 
         // Slot 10-12
         item = CustomerAvailabilityItems(Constants.MONDAY, Constants.SLOT_SIX, false)
